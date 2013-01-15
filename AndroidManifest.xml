@@ -1,0 +1,196 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.didjital.csocare"
+    android:versionName="2.1.0" android:versionCode="2" android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="true" android:hardwareAccelerated="true">
+        <!-- Aktifitas Login -->
+        <activity 
+            android:name="com.didjital.csocare.LoginAct"
+            android:label="CSOCare">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>      
+        </activity>
+        <!-- Register Member -->
+        <activity
+            android:name="com.didjital.csocare.RegisterAct"
+            android:label="Pendaftaran Member"
+            android:screenOrientation="landscape" 
+        	android:configChanges="orientation|keyboardHidden" >
+        </activity>        
+        <activity
+            android:name="com.didjital.csocare.splash"
+            android:label="CSOCare" >
+        </activity>
+        <!-- Aktifitas Splash 2 -->
+        <activity 
+            android:name="com.didjital.csocare.splash2"
+            android:label="CSOCare">      
+        </activity>
+
+        <!-- Aktifitas Menu Utama -->
+        <activity 
+            android:name="com.didjital.csocare.MenuUtama"
+            android:label="Menu Utama">      
+        </activity>
+        <!-- Aktifitas Info CSOC -->
+        <activity 
+            android:name="com.didjital.csocare.InfoActivity"
+            android:label="Info CSOC">      
+        </activity>
+        <!-- Sejarah Activity -->
+        <activity 
+            android:name="com.didjital.csocare.SejarahAct"
+            android:label="Sejarah CSOC">      
+        </activity>
+        <!-- ADART Activity -->
+        <activity 
+            android:name="com.didjital.csocare.AdartAct"
+            android:label="ADART CSOC">      
+        </activity>
+        <!-- AD Activity -->
+        <activity 
+            android:name="com.didjital.csocare.AdActivity"
+            android:label="ANGGARAN RUMAH TANGGA">      
+        </activity>
+        <!-- ART Activity -->
+        <activity 
+            android:name="com.didjital.csocare.ArtActivity"
+            android:label="ANGGARAN RUMAH TANGGA">      
+        </activity>
+        <activity 
+            android:name="com.didjital.csocare.BengkelPilih"
+            android:label="Pilihan Bengkel">      
+        </activity>
+        <activity 
+            android:name="com.didjital.csocare.BengkelActivity"
+            android:label="Daftar Bengkel">      
+        </activity>
+        <activity 
+            android:name="com.didjital.csocare.BengkelSingle"
+            android:label="Detail Bengkel">      
+        </activity>
+        <activity 
+            android:name="com.didjital.csocare.BengkelRujukan"
+            android:label="Bengkel Rujukan">      
+        </activity>
+        <activity 
+            android:name="com.didjital.csocare.RujukanSingle"
+            android:label="Bengkel Rujukan Detail">      
+        </activity>
+        <activity 
+            android:name="com.didjital.csocare.TokoRujukan"
+            android:label="Toko Rujukan">      
+        </activity>
+        <activity 
+            android:name="com.didjital.csocare.TokoSingle"
+            android:label="Toko Rujukan Single">      
+        </activity>
+        <activity 
+            android:name="com.didjital.csocare.EventActivity"
+            android:label="Event CSOC">      
+        </activity>
+        <activity 
+            android:name="com.didjital.csocare.EventSingle"
+            android:label="Detail Event">      
+        </activity>
+         
+         <!-- Emergency Activity -->
+        <activity 
+        android:name="com.didjital.csocare.EmergencyActivity" 
+        android:label="Place Details">
+		</activity>
+         <!-- SinglePlaceActivity -->
+        <activity 
+        android:name="com.didjital.csocare.SinglePlaceActivity" 
+        android:label="Place Details">
+		</activity>
+        
+        <!-- PlacesMapActivity -->
+        <activity 
+        android:name="com.didjital.csocare.PlacesMapActivity" 
+        android:label="Near Places Map View">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.PengurusAct" 
+        android:label="Pengurus CSOC">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.HarianAct" 
+        android:label="Pelaksana Harian CSOC">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.HarianSingle" 
+        android:label="Pelaksana Harian CSOC">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.PenasihatAct" 
+        android:label="Dewan Penasihat CSOC">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.PenasihatSingle" 
+        android:label="Dewan Penasihat CSOC">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.MemberAct" 
+        android:label="Member CSOC"
+        android:windowSoftInputMode="stateHidden">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.MemberActivity" 
+        android:label="Member CSOC"
+        android:windowSoftInputMode="stateHidden">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.MemberSingle" 
+        android:label="DetailMember CSOC">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.ChatActivity" 
+        android:label="Chat">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.ChatRoom" 
+        android:label="ChatRoom"
+        android:screenOrientation="landscape" 
+        android:configChanges="orientation|keyboardHidden" >>
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.ChatBuddy" 
+        android:label="Private Chat"
+        android:screenOrientation="landscape" 
+        android:configChanges="orientation|keyboardHidden" >>
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.ManualActivity" 
+        android:label="Manual Book CSOC">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.manual.TroubleAct" 
+        android:label="Trouble CSOC">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.manual.PartsAct" 
+        android:label="Parts and Substitution CSOC">
+		</activity>
+		<activity 
+        android:name="com.didjital.csocare.manual.TipsAct" 
+        android:label="TipsTrick">
+		</activity>
+		<uses-library android:required="true" android:name="com.google.android.maps" />
+    </application>
+
+</manifest>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView1"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/JudulOrg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/btn_organisasi"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="@color/black" />
+
+<TextView
+    android:id="@+id/partSatu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/txt_sejarah"
+    android:textColor="@color/black" />
+
+<ImageView
+    android:id="@+id/sejarah01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/sejarah_01" />
+
+<ImageView
+    android:id="@+id/sejarah02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/sejarah_02" />
+
+<TextView
+    android:id="@+id/partSatuSamb"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/txt_sejarah"
+    android:textColor="@color/black" />
+
+<TextView
+    android:id="@+id/partDua"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/txt_sejarah"
+    android:textColor="@color/black" />
+
+<ImageView
+    android:id="@+id/sejarah03"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/sejarah_03" />
+
+<TextView
+    android:id="@+id/partTiga"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/txt_sejarah"
+    android:textColor="@color/black" />
+
+
+<ImageView
+    android:id="@+id/sejarah04"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/sejarah_04" />
+
+<ImageView
+    android:id="@+id/sejarah05"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/sejarah_05" />
+
+<ImageView
+    android:id="@+id/sejarah06"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/sejarah_06" />
+
+<TextView
+    android:id="@+id/partEmpat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/txt_sejarah"
+    android:textColor="@color/black" />
+
+<ImageView
+    android:id="@+id/sejarah07"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/sejarah_07" />
+
+<TextView
+    android:id="@+id/partLima"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/txt_sejarah"
+    android:textColor="@color/black" />
+
+<ImageView
+    android:id="@+id/sejarah08"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/sejarah_08" />
+
+<TextView
+    android:id="@+id/partEnam"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/txt_sejarah"
+    android:textColor="@color/black" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_sejarah">Sejarah organisasi CSOC. Disini nantinya akan ditampilkan sejarah organisasi CSOC Indonesia, mulai ide, pembentukan, penyusunan ADART dan sebaginya. Berhubung saya belum memiliki data, maka mohon dibantu untuk melengkapi dan menyusunkan.</string>
+	<string name="txt_adart">
+ADART CSOC. Di halaman ini nantinya akan tertampil ADART CSOC dan beberapa pelengkap dokumen jika ada. Berhubung datanya masih belum ada ya belum saya tuliskan. Menurut rekan-rekan isi ADART ini mau dibikin oline atau offline. Kelebihan online, jika ada perubahan data maka para pengguna aplikasi tidak perlu menginstall versi baru. Data langsung dapat berubah. Kekurangan online, perlu koneksi data. Tetapi saya kira tidak masalah kalau yang dimuat hanya text. Seperti halnya kita membuka email dan web berisi text tanpa gambar.
+Jika file ini dibikin offline, maka tidak perlu lagi mendownload text setiap kali membuka halaman ini. Lebih cepat tentunya, lebih irit data packet tentunya. Tetapi, jika ada perubahan dokumen, maka user wajib menginstall aplikasi baru.
+	</string>
+<string name="isi_ad">
+<![CDATA[
+		<p align="center">
+			Anggaran Dasar</p>
+		<p align="center">
+			Carnival Sedona Owners Club</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB I</p>
+		<p align="center">
+			NAMA DAN WAKTU</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			Pasal 1</p>
+		<p>
+			Komunitas Automotif ini bernama CARNIVAL SEDONA OWNERS CLUB, dan dapat disingkat menjadi CSOC.</p>
+		<p align="center">
+			Pasal 2</p>
+		<p>
+			CSOC didirikan pada hari Jum&#39;at, tanggal 04 bulan Agustus tahun 2006, untuk jangka waktu yang tidak ditentukan.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB II</p>
+		<p align="center">
+			ASAS DAN TUJUAN</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 3</p>
+		<p>
+			CSOC, berasaskan Pancasila dan Undang - Undang Dasar 1945.</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 4</p>
+		<p>
+			(1)Mewujudkan semangat persatuan dan kesatuan.</p>
+		<p>
+			(2)Mewujudkan sifat kebersamaan dan rasa persaudaraan antar anggota.</p>
+		<p>
+			(3)Melakukan pembinaan dan pengembangan aktivitas dan kreativitas anggota di bidang Automotif.</p>
+		<p>
+			(4)Menumbuhkan rasa kepedulian anggota yang diwujudkan dalam berbagai bentuk aktivitas sosial.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB III</p>
+		<p align="center">
+			S I F A T</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			Pasal 5</p>
+		<p>
+			CSOC adalah Club Automotif yang bersifat forum komunikasi, terbuka bagi semua golongan dan lapisan masyarakat yang ingin menyalurkan bakat, hobby maupun aktivitas dan kreatifitasnya di bidang Automotif dan berorganisasi.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB IV</p>
+		<p align="center">
+			KEDAULATAN</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 6</p>
+		<p>
+			Kedaulatan CSOC berada di tangan Anggota dan dilaksanakan sepenuhnya melalui Rapat Umum Anggota.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB V</p>
+		<p align="center">
+			HUBUNGAN KELEMBAGAAN</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 7</p>
+		<p>
+			CSOC, secara kelembagaan bernaung di bawah pembinaan dari IKATAN MOTOR INDONESIA (IMI) dan menjalin kerjasama yang baik dengan KIA MOTOR INDONESIA (KMI) serta Komunitas dan Club Otomotif lainnya.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB VI</p>
+		<p align="center">
+			KEANGGOTAAN</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 8</p>
+		<p>
+			Setiap orang yang memiliki kendaraan Carnival maupun Sedona dan telah memenuhi persyarat, dapat menjadi anggota CSOC.</p>
+		<p>
+			(1)Setiap orang yang senang berorganisasi dan telah memenuhi persyaratan, dapat menjadi anggota CSOC.</p>
+		<p>
+			(2)Ketentuan mengenai keanggotaan diatur dalam Anggaran Rumah Tangga</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB VII</p>
+		<p align="center">
+			HAK DAN KEWAJIBAN</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 9</p>
+		<p>
+			(1)Hak dan Kewajiban setiap anggota adalah sama.</p>
+		<p>
+			(2)Hak dan kewajiban sebagaimana dimaksud dalam ayat (1) di atas dijabarkan dalam Anggaran Rumah Tangga.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB VIII</p>
+		<p align="center">
+			KEPENGURUSAN</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			Pasal 10</p>
+		<p>
+			Pengurus CSOC dipilih dari dan oleh anggota berdasarkan tata cara pemilihan yang diatur dalam Anggaran Rumah Tangga.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			Pasal 11</p>
+		<p>
+			(1)Pengurus CSOC dipilih dengan masa kepengurusan selama 2 (dua) tahun dan selanjutnya dapat dipilih kembali hanya untuk 1 (satu) periode selanjutnya.</p>
+		<p>
+			(2)Bila salah satu pengurus berhenti karena sesuatu hal sebelum masa jabatan berakhir, maka rapat pengurus dapat menunjuk salah seorang dari pengurus atau anggota lainnya untuk menggantikannya sampai masa kepengurusan berakhir.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			Pasal 12</p>
+		<p>
+			(1)Pengurus CSOC terdiri dari Ketua Umum, Sekretaris Jendral, Bendahara dan Humas dengan dibantu oleh beberapa Koordinator Bidang.</p>
+		<p>
+			(2)Apabila diperlukan, susunan pengurus inti dapat ditambahkan sesuai dengan kebutuhan.</p>
+		<p>
+			(3)Pengurus juga merangkap sebagai anggota.</p>
+		<p>
+			(4)Tugas dan tanggung jawab masing-masing pengurus diatur dalam Anggaran Rumah Tangga.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB IX</p>
+		<p align="center">
+			RAPAT-RAPAT</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			Pasal 13</p>
+		<p>
+			(1)Rapat-rapat CSOC terdiri dari:</p>
+		<p>
+			1.Rapat Umum Anggota</p>
+		<p>
+			2.Rapat Umum Luar Biasa Anggota. 1. Rapat Pengurus..</p>
+		<p>
+			(2)Rapat-rapat sebagaimana dimaksud dalam ayat (1) di atas, diatur dalam Anggaran Rumah Tangga.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB X</p>
+		<p align="center">
+			KORUM DAN PENGAMBILAN KEPUTUSAN</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			Pasal 14</p>
+		<p>
+			(1)Rapat-rapat sebagaimana dimaksud dalam pasal 13 ayat (1) Anggaran Dasar ini adalah sah jika dihadiri oleh lebih dari setengah jumlah anggota.</p>
+		<p>
+			(2)Pengambilan keputusan dapat dilakukan apabila disetujui oleh lebih dari setengah jumlah anggota. Dan yang tidak hadir dianggap menerima keputusan yang ditetapkan.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB XI</p>
+		<p align="center">
+			KEUANGAN DAN KEKAYAAN PERKUMPULAN</p>
+		<p align="center">
+			Pasal 15</p>
+		<p align="center">
+			&nbsp;</p>
+		<p>
+			(1)Keuangan CSOC diperoleh dari:</p>
+		<p>
+			a.Uang pendaftaran Anggota.</p>
+		<p>
+			b.Iuran Anggota.</p>
+		<p>
+			c.Sumbangan-sumbangan yang tidak mengikat.</p>
+		<p>
+			d.Sponsor kegiatan.</p>
+		<p>
+			e.Usaha-usaha lain yang sah.</p>
+		<p>
+			(2)Pengelolaan keuangan sebagaimana dimaksud dalam ayat (1) di atas harus dipertanggung-jawabkan setiap tahun oleh Pengurus dalam Rapat Umum Anggota</p>
+		<p>
+			Pasal 16</p>
+		<p>
+			Kekayaan CSOC adalah semua barang bergerak dan barang tidak bergerak yang tercatat sebagai Aset maupun Inventaris CSOC.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB XII</p>
+		<p align="center">
+			PERUBAHAN ANGGARAN DASAR DAN ANGGARAN RUMAH TANGGA</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 17</p>
+		<p>
+			(1)Perubahan Anggaran Dasar dan Anggaran Rumah Tangga CSOC, hanya dapat dilakukan pada Rapat Umum Anggota.</p>
+		<p>
+			(2)Pelaksanaan ketentuan mengenai perubahan Anggaran Dasar dan Anggaran Rumah Tangga dilakukan dengan tetap memperhatikan ketentuan pasal 14 Anggaran Dasar ini.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB XIII</p>
+		<p align="center">
+			PEMBUBARAN</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 18</p>
+		<p>
+			(1)CSOC hanya dapat dibubarkan melalui Rapat Umum Anggota atau Rapat Umum Luar Biasa Anggota yang khusus diadakan untuk itu.</p>
+		<p>
+			(2)Pelaksanaan ketentuan mengenai pembubaran CSOC, dilakukan dengan tetap memperhatikan ketentuan Pasal 14 Anggaran Dasar ini.</p>
+		<p>
+			&nbsp;</p>
+		<p align="center">
+			BAB XIV</p>
+		<p align="center">
+			P E N U T U P</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 19</p>
+		<p>
+			(1)Hal-hal yang belum ditetapkan dalam Anggaran Dasar ini akan diatur lebih lanjut dalam Anggaran Rumah Tangga dan peraturan-peraturan lainnya yang tidak bertentangan dengan Anggaran Dasar.</p>
+		<p>
+			(2)Peraturan-peraturan lain sebagaimana dimaksud dalam ayat (1) di atas, adalah merupakan bagian yang tidak terpisahkan dari Anggaran Dasar dan Anggaran Rumah Tangga ini.</p>
+		<p align="center">
+			&nbsp;</p>
+		<p align="center">
+			Pasal 20</p>
+		<p>
+			Anggaran Dasar ini berlaku sejak tanggal ditetapkan.</p>
+		<p>
+			&nbsp;</p>
+		<p>
+			&nbsp;</p>
+		<p>
+			Ditetapkan di: Jakarta</p>
+		<p>
+			Pada tanggal: 4 Agustus 2006</p>
+		<p>
+			Disempurnakan di: Solo - Jawa Tengah</p>
+		<p>
+			Pada tanggal: 4 Juli 2010</p>
+		]]>
+	</string>
+</resources>

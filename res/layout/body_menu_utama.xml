@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Your package folder -->
+<com.didjital.csocare.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/bgbatik" >
+    
+    <!--  Tombol Info -->
+
+    <Button
+        android:id="@+id/btn_info"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/info_red"
+        android:text="@string/btn_info"
+        android:textColor="#FFFFFF" />
+ 
+    <!--  Tombol Event -->
+
+    <Button
+        android:id="@+id/btn_event"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/event_red"
+        android:text="@string/btn_event"
+        android:textColor="#FFFFFF" />
+ 
+    <!--  Tombol Bengkel -->
+
+    <Button
+        android:id="@+id/btn_bengkel"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/bengkel_red"
+        android:text="@string/btn_bengkel"
+        android:textColor="#FFFFFF" />
+ 
+    <!--  Tombol Emergency -->
+
+
+    <Button
+        android:id="@+id/btn_emergency"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/emergency_red"
+        android:text="@string/btn_emergency"
+        android:textColor="#FFFFFF" />
+    
+    <Button
+        android:id="@+id/btn_chat"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/chat"
+        android:text="Chat"
+        android:textColor="#FFFFFF" />
+    
+    <Button
+        android:id="@+id/btn_manual"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/manual"
+        android:text="Manual Service"
+        android:textColor="#FFFFFF" />
+     
+</com.didjital.csocare.DashboardLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bengkel_actvity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgbatik">
+
+    <!-- Include Action Bar -->
+
+    <include layout="@layout/header_event" />
+
+    <!-- Include Fragmented dashboard -->
+
+    <include
+        android:layout_height="0dp"
+        layout="@layout/event_body" />
+
+    <!-- Include Footer -->
+
+    <include layout="@layout/footer" />
+
+</LinearLayout>

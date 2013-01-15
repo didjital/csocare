@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btnCari"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnCari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/inputSearch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Cari"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgbatik" >
+	<!-- Include Action Bar -->
+
+    <include layout="@layout/header" />
+    
+    <Button
+        android:id="@+id/beres"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/kia32"
+        android:text="Bengkel Resmi KIA"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/beruj"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/repair"
+        android:text="Bengkel Rujukan"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/parts"
+        style="@android:style/ButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/parts32"
+        android:text="Sparepart &amp; Accessories"
+        android:textColor="@color/black" />
+    
+     <!-- Include Footer -->
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bengkel_bg" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/kia_service" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/region_single"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="value" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/region"
+                android:layout_marginBottom="20dp"
+                android:text="Alamat :"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/alamat_single"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:autoLink="map"
+                android:text="Alamat"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telf :"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/telf_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:text="Twitter"
+                android:textColorLink="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fax :"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/fax_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:text="Yahoo!Messenger"
+                android:textColorLink="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text="Deskripsi :"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/desc_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text="Desc"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/bengkel_single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/region_single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bengkel_single"
+        android:layout_centerHorizontal="true"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

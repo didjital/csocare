@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_paper" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/no_photo" />
+
+    <TextView
+        android:id="@+id/profilPengurus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="23dp"
+        android:text="Profil Pengurus"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/namaPengurus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Nama Pengurus"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/jabatanPengurus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/namaPengurus"
+        android:layout_below="@+id/namaPengurus"
+        android:text="Jabatan"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/nopungPengurus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jabatanPengurus"
+        android:layout_toRightOf="@+id/jabatanPengurus"
+        android:text="123"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textNopung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nopungPengurus"
+        android:layout_alignBottom="@+id/nopungPengurus"
+        android:layout_alignLeft="@+id/jabatanPengurus"
+        android:text="CSOC"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

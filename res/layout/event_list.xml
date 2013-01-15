@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5sp" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/image_bg"
+        android:padding="3dp" >
+
+
+<ImageView
+    android:id="@+id/list_image"
+    android:layout_width="50sp"
+    android:layout_height="50sp"
+    android:background="@color/trans"
+    android:contentDescription="@string/app_name"
+    android:src="@drawable/event_icon" />
+
+    </LinearLayout>
+
+    <!-- Title Of Song -->
+
+
+    <TextView
+        android:id="@+id/namaEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="@string/btn_event"
+        android:textColor="#040404"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Artist Name -->
+
+
+    <!-- Rightend Duration -->
+
+
+    <!-- Rightend Arrow -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/kontakEvent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/namaEvent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/namaEvent"
+        android:text="@string/tgl_event"
+        android:textColor="#343434"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lokasiEvent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kontakEvent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/kontakEvent"
+        android:text="@string/lokasi_event"
+        android:textColor="#343434"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/extraEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/trans"
+        android:textSize="0sp" />
+
+
+
+
+    <TextView
+        android:id="@+id/descEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thumbnail"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/trans"
+        android:textSize="0sp" />
+
+</RelativeLayout>

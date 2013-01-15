@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Your package folder -->
+<com.didjital.csocare.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/bgbatik" >
+    
+    <!--  Tombol Sejarah Organisasi -->
+    <Button
+        android:id="@+id/btn_sejarah"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/sejarah_red"
+        android:text="@string/btn_organisasi"
+        android:textColor="#FFFFFF" />
+ 
+    <!--  Tombol ADART -->
+    <Button
+        android:id="@+id/btn_adart"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/adart_red"
+        android:text="@string/btn_adart"
+        android:textColor="#FFFFFF" />
+ 
+    <!--  Tombol Pengurus -->
+    <Button
+        android:id="@+id/btn_pengurus"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/pengurus_red"
+        android:text="@string/btn_pengurus"
+        android:textColor="#FFFFFF" />
+ 
+    <!--  Tombol Member -->
+    <Button
+        android:id="@+id/btn_member"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/member_red"
+        android:text="@string/btn_member"
+        android:textColor="#FFFFFF" />
+     
+</com.didjital.csocare.DashboardLayout>

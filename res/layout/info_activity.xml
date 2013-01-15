@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/info_activity"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+        <!-- Include Action Bar -->
+        <include layout="@layout/header"/>
+ 
+        <!--  Include Fragmented dashboard -->
+        <include layout="@layout/info_body"/>  
+ 
+        <!--  Include Footer -->
+        <include layout="@layout/footer"/>
+ 
+</LinearLayout>
